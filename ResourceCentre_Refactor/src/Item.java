@@ -15,7 +15,6 @@ public class Item {
 		
 		// Write your codes here
 		return String.format("%-10s %-30s %-10s %-10s", getAssetTag(), getDescription(), getIsAvailable(), getDueDate());
-		
 	}
 	public String getAssetTag() {
 		return assetTag;
